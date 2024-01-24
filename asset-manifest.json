@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/brahminbook-frontend/static/css/main.7035df62.css",
-    "main.js": "/brahminbook-frontend/static/js/main.f6bd631a.js",
+    "main.js": "/brahminbook-frontend/static/js/main.3ca6137f.js",
     "static/js/787.09ab72e9.chunk.js": "/brahminbook-frontend/static/js/787.09ab72e9.chunk.js",
     "index.html": "/brahminbook-frontend/index.html",
     "main.7035df62.css.map": "/brahminbook-frontend/static/css/main.7035df62.css.map",
-    "main.f6bd631a.js.map": "/brahminbook-frontend/static/js/main.f6bd631a.js.map",
+    "main.3ca6137f.js.map": "/brahminbook-frontend/static/js/main.3ca6137f.js.map",
     "787.09ab72e9.chunk.js.map": "/brahminbook-frontend/static/js/787.09ab72e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7035df62.css",
-    "static/js/main.f6bd631a.js"
+    "static/js/main.3ca6137f.js"
   ]
 }
