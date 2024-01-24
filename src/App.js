@@ -4,7 +4,7 @@ import CityList from './components/CityList';
 import BrahminList from './components/BrahminList';
 import BrahminProfile from './components/BrahminProfile';
 import SearchBar from './components/SearchBar';
-import PanchangDisplay from './components/PanchangDisplay';
+import PanchangDisplay from './components/PanchangDisplay'; // Import the PanchangDisplay component
 import citiesData from './data/Cities';
 import brahminsData from './data/Brahmins';
 
@@ -30,6 +30,7 @@ const App = () => {
   return (
     <div>
       <Header />
+      <PanchangDisplay /> {/* Render the PanchangDisplay component */}
       <CityList cities={citiesData} onSelectCity={handleCitySelect} />
       <BrahminList
         brahmins={selectedCity ? brahminsData.filter(b => b.city === selectedCity.name) : []}
@@ -37,7 +38,7 @@ const App = () => {
       />
       <SearchBar onSearch={handleSearch} />
       {selectedBrahmin && <BrahminProfile brahmin={selectedBrahmin} />}
-      {/* Add PanchangDisplay and other components as needed */}
+      {/* Add other components or content as needed */}
     </div>
   );
 };
